@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/style.css">
     <title>Prework Study Guide</title>
   </head>
   <body>
@@ -45,12 +46,67 @@
            <li>A division or section can be added by using the div command</li>
            <li>A break can be added by using the br command</li>
           </ol>
+        <li>Tying CSS to HTML</li>
+         <ol>
+            <li>A <b>link</b> element creates the connection to the external file</li>
+            <li>The <b>rel</b> attribute specifies a relationship between the current and linked document</li>
+            <li>The <b>href</b> attribute specifies the location or URL of the external source. This solidifies that:</li>
+            <ul>
+                <li>It is using a relative path</li>
+                <li>This means the location is derived from the current location</li>
+                <li>To locate the style sheet from the currect location we must look in the corresponding folder</li>
+            </ul>
+         </ol>
         </ul>
       </section>
       <section class="card" id="css-section"></section>
       <h2>CSS</h2>
       <ul>
-        <li>Type your CSS notes here</li>
+        <h3>Three ways to style a webpage using CSS</h3>
+        <li><b>Inline CSS</b>: when a developer wants to style directly in the HTML file</li>
+        <ol>
+            <li>Apply to a specific HTML tag</li>
+            <li>Uses a style attribute with a CSS rule to style a particular page element only</li>
+            <li>Useful for quick/permananent changes</li>
+            <li>Less flexible than external and internal style sheets...<b>reason</b> each style must be edited individually when making a a design change</li>
+            <li><b>Example:</b> using the <b>style</b> attribute to change the color of a single <b>h1</b> heading</li>
+        </ol>
+        <li><b>Internal CSS Style Sheet:</b> embedding an entire stylesheet directly into the HTML file using the <b>style</b> element in the <b>head</b> element</li>
+        <ol>
+            <li>Contains rules for the webpage in the head section of the HTML flexible</li>
+            <li>The rules only apply to that particular page</li>
+            <li>CSS classes and ID's can be configured to identify and style multiple elements on a page</li>
+            <li>Similarly to the Inline CSS, a single change to the CSS rule will apply to all tagged page elements</li>
+        </ol>
+        <li><b>External CSS Style Sheet:</b> most common way to style a webpage</li>
+        <ol>
+            <li>Preferred in most cases because it allows developers to keep all CSS rules in a separate file</li>
+            <li>Makes design changes easier</li>
+            <li> when using, we link the file using a <b>link</b> element placed in the HTML's <b>head</b></li>
+        </ol>
+        <li><b>Separation of concerns:</b> a widely used term in web development which refers to separating code into different files based on use and different responsibilies</li>
+        <h3>Diagram parts of CSS rules</h3> 
+        <ol>
+            <li><b>div:</b> selector, defines an element or attribute to which the rules will apply</li>
+            <li><b>declaration:</b> includes property and value</li>
+            <li><b>declaration block:</b> where declarations live, offset by parenthesis</li>
+        </ol>
+        <li><b>Property Descriptions</b></li>
+        <ol>
+            <li>*: wild card symbol, it declares all elements on the page will have the same properties</li>
+            <li>Color: adds a specific color using hex code, rgb code or generic color name</li>
+            <li>Margin: extra space <b>around</b> the element</li>
+            <li>Padding: adds space around the content <b>inside</b> an element</li>
+            <li>text-align: aligns text right align, center, left align, uniform</li>
+        </ol>
+        <li><b>CSS box model:</b> each box consists of margins outside the element, borders, padding, and content</li>
+        <li><b>When combining two selectors into a single CSS rule, the formatting applies to both sections.</b></li>
+            <ol>
+                <li>This saves on repeating the rules twice</li>
+                <li>Furthermore, two or more elements which share the same style can share the same formatting</li>
+                <li>Do Not Repeat Yourself (DRY): coding priniciple which encourages developers to reuse/share pieces of code in order to reduce the amount of lines in a code</li>
+                <li>Helps reduce the overall size and complexity of a codebase</li>
+            </ol> 
       </ul>
       <section class="card" id="git-section"></section>
       <h2>Git</h2>
