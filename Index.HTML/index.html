@@ -11,8 +11,50 @@
     <header id="top">
       <h1>Prework Study Guide</h1>
       <img src="./assets/bowtie-cat.png" alt="Profile image of cat wearing a bow tie." />
+      <h2>✨ Open the Console to See What's Happening ✨</h2>
     </header>
     <main>
+      <section class="card" id="course requirements-section">
+        <h2>Course Information</h2>
+        <h3>Completion Requirements</h3>
+        <ul>
+          <li>Cannot miss more than 4 virtual classes</li>
+          <li>Participate in all group projects</li>
+          <li>Miss no more than 2 homework/challenge assignments</li>
+          <li>Fulfill tuition requirements</li>
+          <li>Review syllabus for any questions</li>
+        </ul>
+        <h3>Attendance Requirements</h3>
+        <ul>
+          <li>Arrive to class on time</li>
+          <li>Stay for the duration of class</li>
+          <li>Turn on your camera</li>
+          <li>If unable to attend class or meet the attendance requirements, contanct SSA and instructional team</li>
+        </ul>
+        <h3>Important Reminders</h3>
+        <ul>
+          <li>Class recordings are available in bootcamp spot 24 hours after class ends</li>
+          <li>Prioritize attending office hour sessions whenever possible</li>
+          <li>Create a schedule to stay organized</li>
+          <li>Use Career Services center for any help with job search, resume building or applications as neccessary</li>
+        </ul>
+        <h3>Technical Resources</h3>
+        <ul>
+          <li><a href="https://2u-20.wistia.com/medias/bcayfitsb7">Xpert Learning Assistant</a></li>
+          <li><a href="https://2u-20.wistia.com/medias/q7vpwoh52m">Ask BCS Learning Assistant</a></li>
+          <li><a href="https://2u-20.wistia.com/medias/huk3lgcsi8">GitHub and GitHub Lab</a></li>
+          <li><a href="https://2u-20.wistia.com/medias/aek9yxfpwh">Slack</a></li>
+          <li><a href="https://2u-20.wistia.com/medias/9dc5g4zgc2">Zoom</a></li>
+          <li><a href="https://2u-20.wistia.com/medias/8ljbsznkdc">Bootcamp Spot Review</a></li>
+        </ul>
+        <h3>Class Prep Resources</h3>
+        <ul>
+          <li><a href="https://2u-20.wistia.com/medias/0hl5bs1d3r">Time Management Pt.1</a></li>
+          <li><a href="https://2u-20.wistia.com/medias/lgcdvdufuy">Time Management Pt.2</a></li>
+          <li><a href="https://2u-20.wistia.com/medias/yba4m4x8pe">Virtual Class Best Practices: Dedicate Workspaces</a></li>
+          <li><a href="https://2u-20.wistia.com/medias/nb366awmrm">Virtual Class Best Practices: Study Groups</a></li>
+        </ul>
+      </section>
       <section class="card" id="html-section">
         <h2> HTML</h2>
         <ul>
@@ -59,7 +101,7 @@
          </ol>
         </ul>
       </section>
-      <section class="card" id="css-section"></section>
+      <section class="card" id="css-section">
       <h2>CSS</h2>
       <ul>
         <h3>Three ways to style a webpage using CSS</h3>
@@ -88,6 +130,10 @@
         <h3>Diagram parts of CSS rules</h3> 
         <ol>
             <li><b>div:</b> selector, defines an element or attribute to which the rules will apply</li>
+            <ul>
+              <li>class attribute: a selector for a new delaration by designation</li>
+              <li>allows to change specific elements but not all</li>
+            </ul>
             <li><b>declaration:</b> includes property and value</li>
             <li><b>declaration block:</b> where declarations live, offset by parenthesis</li>
         </ol>
@@ -95,9 +141,14 @@
         <ol>
             <li>*: wild card symbol, it declares all elements on the page will have the same properties</li>
             <li>Color: adds a specific color using hex code, rgb code or generic color name</li>
+            <li>Width and height: defines the space of element</li>
             <li>Margin: extra space <b>around</b> the element</li>
+            <li>Auto: keeps the value to the left and right equal</li>
+            <li>Border: assigns a border with a defined width and color or hex code</li>
+            <li>Box-shadow: Adds shadow effects around an elements frame, descrobed by x and y offsets, relative to the element, blur, spread radius and color.</li>
             <li>Padding: adds space around the content <b>inside</b> an element</li>
             <li>text-align: aligns text right align, center, left align, uniform</li>
+            <li>card: designates this as a class selector. Any HTML element assigned to the class, card, will gain these property assignments from the CSS</li>
         </ol>
         <li><b>CSS box model:</b> each box consists of margins outside the element, borders, padding, and content</li>
         <li><b>When combining two selectors into a single CSS rule, the formatting applies to both sections.</b></li>
@@ -108,7 +159,8 @@
                 <li>Helps reduce the overall size and complexity of a codebase</li>
             </ol> 
       </ul>
-      <section class="card" id="git-section"></section>
+      </section>
+      <section class="card" id="git-section">
       <h2>Git</h2>
       <ul><p>
         <li><b>git status:</b> checks what branch we are currently on</li>
@@ -147,15 +199,99 @@
         <li><b>git stash pop:</b> write working from top of stash stack</li>
         <li><b>git stash drop:</b> discard the changes from top of stash stack</li>
       </ul></p>
-      <section class="card" id="javascript-section"></section>
+      </section>
+      <section class="card" id="javascript-section">
       <h2>JavaScript</h2>
+      <h3>Background Information</h3>
       <ul>
-        <li>Type your JavaScript notes here</li>
+        <li><b>Function:</b> a set of instructions that tells the computer how to preform a task</li>
+        <ol>
+          <li>Different that a for loop, or conditional statement, because functions do not automatically execute when the JS file (script.js) is run</li>
+          <li>Must call a function by name in order to execute</li>
+          <li>This helps make the code easier to use and replicate/call as many times as needed</li>
+          <li>Also allows to control where in the control flow a task is executed, or if it is at all</li>
+          <li>A .CSS file is linked in the header, meanwhile a .JS is linked in the footer, but they are linked using the same method</li>
+        </ol>
+        <li><b>2 requirements for a JS function</b></li>
+        <ol>
+          <li>Define the function/function definition</li>
+          <ul>
+            <li>Used through a function declaration</li>
+            <li>Function keyword, the actual word "function" is a prefix to the function declaration</li>
+            <li>Code block: where the instructions for defining the function (and what it should do) lives. It is also referred to as the function body</li>
+            <li><b>Console Method:</b> Steps in the code block are written through a <b>console.log</b></li>
+            <li>The word console refers to the test environment that developers use to check out their code</li>
+            <li>The second part .log() is a method, which means a set of instructions that can be execurtes by a computer</li>
+            <li>Console.logs output a message to the web console by adding an argument located inside the parenthesis</li>
+            <li>Define after the computer logs to the console</li>
+            <li></li>
+          </ul>
+          <li>Call the function</li>
+          <ul>
+            <li>To call the function use the function declaration followed by a set of parenthesis and a semicolon</li>
+            <li>When function is called properly, the instructions listed in the code block are executed</li>
+          </ul>
+          <li><b>Control Flow:</b> is the order in which a computer executes in a script, which runs from the first statement at the top down to the bottom of the page. Can be useful by using conditional statements and loops</li>
+          <ul>
+            <li><b>Conditional Statements</b> allows programs to follow written instructions based on the variables</li>
+            <li><b>If statements:</b> checks whether or not a condition is true or false</li>
+            <li>If condition is true, it is considered truthy. If a conditional statement is truthy it will follow the action we asked it to do in between curly brackets. If it is not truthy, or considered falsy, then the computer will ignore the conditional statement between the brackets.</li>
+            <li>If a condition is falsy, it will be denoted as 0, -0, On, "", null, undefined, NaN, or a Boolean data type of false.</li>
+            <li><b>Else if:</b> a different conditional statement that can be used if the second contion is truthy</li>
+            <li><b>Example:</b> stacking dishes, fancy plates on top shelf, regular plates on bottom shelf...else if its a bowl, stack ontop regular plates on bottom shelf</li>
+            <li>A computer will finish all conditonal statements listed, evaluating if it is truth or falsy</li>
+          </ul>
+        </ol>
+        <li>Browser Application Programming Interfaces (API's) provide functionality such as: dynamically creating HTML and setting CSS styles; collecting and manipulating a video stream from a user's webcam, or generating 3D graphics and audio samples</li>
+        <li>Third-party API's allow developers to incorporate functionality in sites from other content providers, such as Twitter or Facebook</li>
+        <li>Third-party frameworks and libraries that you can apply to HTML to accelerate the work of building sites and applications</li>
       </ul>
+      <h3>Variables: a named container that allows to stores data in our code</h3>
+      <ul>
+        <li>Declaring a variable, the "var" keyword is used. This works for conditional statements and arrays.</li>
+        <li>After the "var", give the variable a unique name. This is how it weill be referenced in our code</li>
+        <li>Finally, an assignment opperator or = is used to assign the specific data that is being stored</li>
+        <li> === is a strict equality operator which checks to see if two values are equal and returns to the Boolean result of true or false if the values are not equal</li>
+        <li><b>Arrays: a way JavaScript allows the computer to evaluate a dozen or hundred of values at a time. An array stores a group of related data in a variable and uses a for loop ti preform a task on each piece of data, while only using a few lines of code.</b></li>
+        <li> In order to use an array with a single piece of data, the location of the data item within the array is neccessary. This location is identified with a unique number called an index.</li>
+        <li><b>Index:</b> Each piece of a data's location number can access the individual data inside the array. JavaScript and many other programming languages have a 0 index and are sequencial following the 0. Meaning the data index will begin with the number 0, then 1,2,3...</li>
+        <li>To access an individual index, start with the name of the array, then a pair of square brackets and inside is the number of the index, to see the array in action it is put in the console.log function</li>
+        <li><b>Loops:</b> allow fro multiple index's to be stated without having to list them all within a console log</li>
+        <li><b>for loops:</b> uses predictable pattern of indices to preform a task on all the items in an array by allowing a single code block to be executed over and over.</li>
+        <li>To preform a for loop a conditional statement like an if or else statement has to be used as well</li>
+        <li>The second half needed for a for loop is the array's length. This determines the amount of times the for loop is repeated until there are no items left in the array.</li>
+        <li><h3>Three statements in a for loop</h3></li>
+        <ol>
+          <li>Starting point of a for loop: declare the variable (x) and give it a value of 0 (all first indices begin with 0)</li>
+          <li>Conditon of a for loop: as long as the number in the variable x is less than the length of the array, the loop will continue running. This will allow the loop to execute one time for each array. To do this, we use the <b>.length</b> property within our array.</li>
+          <li>The final statement: allows the array to reiterate over each item. To show the increse of the indices by 1, use the shortcut x++. This allows the code to loop while increasing by 1, without having to type all the console.logs</li>
+        </ol>
+        <li>A for loop begins with for, and the code we want executed for each loop inside the curly brackets. An example would look like: for(var x=0; x < shapes.length; x++) {console.log(shapes[x]);}</li>
+        <ol>
+          <li><b>for:</b> indicates the for loop</li>
+          <li><b>var:</b> indicates the variable function</li>
+          <li><b>x:</b> indicates each index or indices</li>
+          <li><b>shapes:</b> indicates the array</li>
+          <li><b>length:</b> allows the loop to run for the length of the array</li>
+          <li><b>x++:</b> indicates the increase of each index by one until the length is over (a shortcut)</li>
+          <li><b>console.log:</b> indicates the argument (truthy or falsy) being made</li>
+        </ol>
+        <li><b>Commenting out:</b> used by denoting /*, this allows the code to remain without being seen or actively used</li>
+      </ul>
+      <h3>Strings: include all the topics contained in quotation marks, followed by a semicolon</h3>
+      <ul>
+        <li>notes</li>
+      </ul>
+      <h3>Data Types</h3>
+      <ul>
+        <li>notes</li>
+      </ul>
+      </section>
     </main>
 
     <footer>
       <p>I can code!</p>
     </footer>
+    <script src="./assets/script.js"></script>
   </body>
 </html>
