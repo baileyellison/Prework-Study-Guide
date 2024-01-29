@@ -1,9 +1,12 @@
 *
 {margin: 0;padding: 0;}
 header, footer {width: 100%; height: 120px; background-color: rgb(193, 111, 219); color: white;}
-h1, h2 {text-align: center;}
+h1{text-align: center;}
+h2{text-align: center; color:darkslateblue}
+h3{text-align:left; color:darkmagenta}
+h4{text-align:left; color:rgb(29, 49, 67)}
 img {display: block; height: 50px; width: 50px; margin-left: auto; margin-right: auto;}
 ul,ol {padding-left: 40px; font-size: 20px;}
 p {text-align: center; font-size: 30px;}
-.card {width: 80%; margin: 40px auto; border: 5px solid rgba(11, 78, 48, 0.699); box-shadow: 5px 10px #888888}
+.card {width: 80%; margin: 40px auto; border: 5px solid rgba(11, 78, 48, 0.699); box-shadow: 5px 10px #8118b2}
 a {padding-left: 40px; font-size: 20px}
