@@ -12,8 +12,6 @@ N/A
 
 The prework-study guide aims to provide notes, tips, terms and definitions and pointers by sections. Each section depicts a different language and their inidvidual components. The components help guide the student through each language. Each language is broken into headers and subheaders. This breaks up the material into retainable information for the user. The DevTools console is in place to help guide the user into topics that should be studied along with the external resource links, when needing a more visual representation. 
 
-![alt text](assets/images/screenshot.png)
-
 ## Credits
 
 N/A
